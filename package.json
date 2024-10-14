@@ -1,0 +1,15 @@
+{
+	"name": "jsx-email-module-issue",
+	"version": "1.0.0",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"engines": {
+		"node": ">=20.18.0"
+	},
+	"dependencies": {
+		"jsx-email": "^2.0.8"
+	}
+}
