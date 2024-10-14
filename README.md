@@ -20,10 +20,10 @@ index 503140a..43bf699 100644
  import chalk from 'chalk';
  import mustache from 'mustache';
  import { parse as assert, boolean, object, optional, string } from 'valibot';
-+import path from 'node:path';
++import { dirname } from 'node:path';
 +import { fileURLToPath } from 'node:url';
 +const __filename = fileURLToPath(import.meta.url);
-+const __dirname = path.dirname(__filename);
++const __dirname = dirname(__filename);
  const { log } = console;
  const CreateOptionsStruct = object({
      jsx: optional(boolean()),
